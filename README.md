@@ -68,14 +68,14 @@ First, enter venv and install the local package and pyinstaller
 
 ~~~shell
 >. .venv/Scripts/activate
-(.venv) D:\path\to\proj\Cal Sync>pip install .
-Processing d:\path\to\proj\Cal Sync
+(.venv) >pip install .
+Processing /path/to/proj/Cal Sync
 ~snip~
 Installing collected packages: cal_sync
     Running setup.py install for cal_sync ... done
 Successfully installed cal_sync-0.1.0
 
-(.venv) D:\path\to\proj\Cal Sync>pip install pyinstaller
+(.venv) >pip install pyinstaller
 ~snip~
 Successfully installed pyinstaller-3.6
 ~~~
@@ -83,7 +83,7 @@ Successfully installed pyinstaller-3.6
 Use pyinstaller to build the exe file.
 
 ~~~shell
-(.venv) D:\path\to\proj\Cal Sync>pyinstaller cal_sync\cli.py --onefile --name calsync
+(.venv) >pyinstaller cal_sync\cli.py --onefile --name calsync
 ~snip~
 13691 INFO: Building EXE from EXE-00.toc completed successfully.
 ~~~
