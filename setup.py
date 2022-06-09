@@ -40,7 +40,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='Cal Sync',
+    name='Cal-Sync',
     version=__version__,
     description='Outlook to Google Calendar sync CLI tool',
     long_description=long_description,
