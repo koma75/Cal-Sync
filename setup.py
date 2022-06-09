@@ -73,7 +73,13 @@ setup(
         ),
 
     # add your package requirements
-    install_requires=['click>=8,<9', 'PyYaml>=6,<7'],
+    install_requires=[
+        'click>=8,<9',
+        'PyYaml>=6,<7',
+        'icalendar>=4,<5',
+        'pywin32',
+        'python-dateutil>=2,<3'
+        ],
 
     entry_points={
         'console_scripts': [
