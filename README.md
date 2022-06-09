@@ -9,7 +9,7 @@ Installation
 ------------------------------------------------------------------------
 
 ~~~shell
-> pip install cal_sync
+pip install cal_sync
 ~~~
 
 Usage
@@ -19,7 +19,7 @@ Usage
 Command Line tool description
 
 ~~~shell
-> calsync --option1 --argopt1 arg -v
+calsync --option1 --argopt1 arg -v
 ~~~
 
 * -o, --option1
