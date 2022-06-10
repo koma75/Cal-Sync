@@ -76,7 +76,14 @@ def pout(msg=None, Verbose=0, level=Level.INFO, newline=True):
     else:
         pass
     click.echo(click.style(str(msg), fg=fg), nl=newline, err=error)
+
 def createConf(conf, verbose):
+    """Create Default Configuration file
+
+    Args:
+        conf (String): Path to the configuration file to create
+        verbose (Int): Verbosity setting
+    """
     try:
         with click.open_file(conf, 'w', 'utf-8') as fd:
             fd.writelines([
